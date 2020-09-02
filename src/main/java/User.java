@@ -17,14 +17,14 @@ public class User {
         this.gender = gender;
     }
 
-    private long id;
+    private Long id;
     private String name;
     private Date birthdate;
     private String login;
     private String password;
-    private boolean gender;
+    private Boolean gender;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -60,11 +60,11 @@ public class User {
         this.password = password;
     }
 
-    public boolean getGender() {
+    public Boolean getGender() {
         return gender;
     }
 
-    public void setGender(boolean gender) {
+    public void setGender(Boolean gender) {
         this.gender = gender;
     }
 }
